@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main class="hidden">
+      <h1 class="message">Enter your city name to view weather</h1>
+
+      <input type="text" class="searchbox" placeholder="Search for a city" />
+      <div class="content">
+        <h2 class="city">City, Country</h2>
+        <p class="date">day month year</p>
+        <div class="temp">X°<span>C</span></div>
+        <div class="flex">
+          <img class="weather-icon" src="" alt="" />
+          <p class="temp-desc">description</p>
+        </div>
+
+        <p class="hi-low">low°/high°</p>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
